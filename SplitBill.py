@@ -31,10 +31,3 @@ class Brunch:
 					
 				#count price of activity per person
 				Brunch.mainDic[Brunch.activities[a]][2]=price/people
-		
-o=Brunch("prosseco","karaoke1","karaoke2")
-o.addPerson("Matus",33,0,0)
-o.addPerson("Mimi",0,0,None)
-o.addPerson("Surag",0,180,80)
-o.addPerson("Izzi",0,0,0)
-o.processIt()
